@@ -1,0 +1,991 @@
+[
+  {
+    "question": [
+      { "type": "text", "content": "Analyze the following code snippet. What will be the value of `a`?" },
+      { "type": "code", "content": "a = [1, 2, 3]\nb = a\nb[0] = 5" }
+    ],
+    "a": "[1, 2, 3]",
+    "b": "[5, 2, 3]",
+    "c": "Error",
+    "d": "[1, 5, 3]",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following code?" },
+      { "type": "code", "content": "print(0.1 + 0.2 == 0.3)" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "0.3",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is true about the `else` clause in a `for` loop?" }
+    ],
+    "a": "It is executed only if the loop is terminated by a `break` statement.",
+    "b": "It is executed when the loop has finished iterating through the sequence.",
+    "c": "It is a syntax error.",
+    "d": "It is executed in every iteration of the loop.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `pass` statement do in Python?" }
+    ],
+    "a": "It is a null operation; nothing happens when it executes.",
+    "b": "It skips the current iteration of a loop.",
+    "c": "It exits a function.",
+    "d": "It raises an exception.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will be the output of the following code?" },
+      { "type": "code", "content": "print(type(lambda: None))" }
+    ],
+    "a": "<class 'function'>",
+    "b": "<class 'NoneType'>",
+    "c": "<class 'lambda'>",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "How can you create a dictionary with a list of keys and a default value using a class method?" },
+      { "type": "code", "content": "dict.fromkeys(['a', 'b'], 0)" }
+    ],
+    "a": "`dict.fromkeys(['a', 'b'], 0)`",
+    "b": "`dict(['a', 'b'], 0)`",
+    "c": "`{'a': 0, 'b': 0}`",
+    "d": "This is not possible.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the result of the following boolean evaluation?" },
+      { "type": "code", "content": "bool([])" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is an immutable data type in Python?" }
+    ],
+    "a": "list",
+    "b": "dict",
+    "c": "set",
+    "d": "tuple",
+    "correct": "d"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the slice notation `[::-1]` do when used with a list?" }
+    ],
+    "a": "It reverses the list.",
+    "b": "It returns a copy of the list.",
+    "c": "It returns the first element.",
+    "d": "It is a syntax error.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will be the output of the following print statement?" },
+      { "type": "code", "content": "print('abc'.encode())" }
+    ],
+    "a": "'abc'",
+    "b": "b'abc'",
+    "c": "['a', 'b', 'c']",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which method removes the last element from a list and returns that element?" }
+    ],
+    "a": "remove()",
+    "b": "pop()",
+    "c": "del()",
+    "d": "get()",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the purpose of the `**kwargs` syntax in a function definition?" }
+    ],
+    "a": "To pass a variable number of non-keyword arguments.",
+    "b": "To pass a variable number of keyword arguments.",
+    "c": "To unpack a list into arguments.",
+    "d": "To enforce keyword-only arguments.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following expressions will raise a `TypeError`?" }
+    ],
+    "a": "`'2' + 2`",
+    "b": "`2 + 2.0`",
+    "c": "`'2' * 2`",
+    "d": "`2 ** 2`",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the expression `3 * (1**3)`?" }
+    ],
+    "a": "27",
+    "b": "9",
+    "c": "3",
+    "d": "1",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of these is not a core data type built into Python?" }
+    ],
+    "a": "List",
+    "b": "Dictionary",
+    "c": "Tuple",
+    "d": "Class",
+    "correct": "d"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the following `zip` operation return?" },
+      { "type": "code", "content": "list(zip(*[('a', 1), ('b', 2)]))" }
+    ],
+    "a": "`[('a', 'b'), (1, 2)]`",
+    "b": "`(('a', 'b'), (1, 2))`",
+    "c": "`[('a', 1), ('b', 2)]`",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the fundamental difference between the `is` and `==` operators?" }
+    ],
+    "a": "They are the same.",
+    "b": "`is` checks for object identity, `==` checks for value equality.",
+    "c": "`is` checks for value equality, `==` checks for object identity.",
+    "d": "`is` is used for numbers, `==` for strings.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following `filter` operation?" },
+      { "type": "code", "content": "list(filter(lambda x: x > 5, [1, 5, 10, 15]))" }
+    ],
+    "a": "[1, 5]",
+    "b": "[10, 15]",
+    "c": "[1, 5, 10, 15]",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is the correct way to get the keys of a dictionary as a `list` object?" }
+    ],
+    "a": "`my_dict.keys()`",
+    "b": "`list(my_dict.keys())`",
+    "c": "`my_dict.keys_list()`",
+    "d": "`list(my_dict)`",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Due to operator precedence, what is the output of `2**3**2`?" }
+    ],
+    "a": "64",
+    "b": "512",
+    "c": "36",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will the `any()` function return for the following list?" },
+      { "type": "code", "content": "any([0, '', False])" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is a decorator in Python?" }
+    ],
+    "a": "A function that takes another function and extends its behavior without explicitly modifying it.",
+    "b": "A way to comment code.",
+    "c": "A special type of variable.",
+    "d": "A class method.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "How do you handle potential errors during code execution in Python?" }
+    ],
+    "a": "Using `try...except` blocks.",
+    "b": "Using `if...else` statements.",
+    "c": "Using `for...else` loops.",
+    "d": "Python does not support exception handling.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the primary purpose of the `global` keyword inside a function?" }
+    ],
+    "a": "To declare a variable as global.",
+    "b": "To modify a global variable from within a function.",
+    "c": "To access a global variable.",
+    "d": "All of the above.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the result of the following string method?" },
+      { "type": "code", "content": "'hello'.capitalize()" }
+    ],
+    "a": "'hello'",
+    "b": "'Hello'",
+    "c": "'HELLO'",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is a feature of a Python dictionary?" }
+    ],
+    "a": "They are ordered (since Python 3.7).",
+    "b": "Keys must be mutable.",
+    "c": "Values can be of any data type.",
+    "d": "They cannot be nested.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the built-in function `divmod(10, 3)` return?" }
+    ],
+    "a": "`(3, 1)`",
+    "b": "`3.33`",
+    "c": "`[3, 1]`",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is list comprehension?" }
+    ],
+    "a": "A concise way to create lists.",
+    "b": "A method to check if an item is in a list.",
+    "c": "A function to sort a list.",
+    "d": "A way to loop through a list.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of creating a `set` from the following list?" },
+      { "type": "code", "content": "set([1, 2, 2, 3])" }
+    ],
+    "a": "`[1, 2, 3]`",
+    "b": "`{1, 2, 3}`",
+    "c": "`{1, 2, 2, 3}`",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will the following print statement output?" },
+      { "type": "code", "content": "print('%.2f' % 1.2345)" }
+    ],
+    "a": "1.23",
+    "b": "1.2345",
+    "c": "1.24",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "How are arguments passed in Python?" }
+    ],
+    "a": "Pass by value",
+    "b": "Pass by reference",
+    "c": "Pass by object reference (also known as pass by assignment).",
+    "d": "It depends on the data type.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following creates a truly empty set?" }
+    ],
+    "a": "`{}` (This creates an empty dictionary)",
+    "b": "`set()`",
+    "c": "`[]`",
+    "d": "`()`",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following `isinstance` check?" },
+      { "type": "code", "content": "isinstance(1, float)" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the key difference between a shallow copy and a deep copy?" }
+    ],
+    "a": "There is no difference.",
+    "b": "A shallow copy creates a new object but references the original nested elements; a deep copy creates a new object and recursively copies all nested elements.",
+    "c": "A deep copy creates a new object but references the original nested elements; a shallow copy creates a new object and recursively copies all nested elements.",
+    "d": "Shallow copy is always faster and therefore better.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `strip()` method do for a string?" }
+    ],
+    "a": "Removes all characters.",
+    "b": "Removes leading and trailing whitespace by default.",
+    "c": "Converts to lowercase.",
+    "d": "Splits the string into a list.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following string concatenation?" },
+      { "type": "code", "content": "'a' + str(1)" }
+    ],
+    "a": "'a1'",
+    "b": "'a 1'",
+    "c": "Error",
+    "d": "1a",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is true about Python's `range()` function?" }
+    ],
+    "a": "It includes the stop number in its output.",
+    "b": "It returns a list of numbers.",
+    "c": "It is an immutable sequence type that is highly memory-efficient.",
+    "d": "It can only take one argument.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the purpose of an `__init__.py` file in a Python package directory?" }
+    ],
+    "a": "It is the main script of the package.",
+    "b": "It is used to initialize the package's global variables.",
+    "c": "It makes a directory a Python package, allowing modules within it to be imported.",
+    "d": "It is a documentation file in Markdown format.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which statement is used to programmatically trigger an exception?" }
+    ],
+    "a": "`throw`",
+    "b": "`raise`",
+    "c": "`try`",
+    "d": "`except`",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the following `join` method return?" },
+      { "type": "code", "content": "' '.join(['a', 'b', 'c'])" }
+    ],
+    "a": "`'a b c'`",
+    "b": "`['a', ' ', 'b', ' ', 'c']`",
+    "c": "`'abc'`",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "In Python 3, what is the output of `round(2.5)` (ties to nearest even number)?" }
+    ],
+    "a": "2",
+    "b": "3",
+    "c": "2.0",
+    "d": "3.0",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of these is not a standard, built-in way to format strings in Python?" }
+    ],
+    "a": "f-strings (Formatted string literals)",
+    "b": "`.format()` method",
+    "c": "`%` operator (C-style formatting)",
+    "d": "`#` operator (Template literals)",
+    "correct": "d"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the bitwise NOT operator `~` evaluate to for the integer 5?" },
+      { "type": "code", "content": "~5" }
+    ],
+    "a": "-6",
+    "b": "6",
+    "c": "-5",
+    "d": "5",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of multiplying a tuple by an integer?" },
+      { "type": "code", "content": "(1, 2) * 2" }
+    ],
+    "a": "`(2, 4)`",
+    "b": "`(1, 2, 1, 2)`",
+    "c": "Error",
+    "d": "`(1, 4)`",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "How can you check if all characters in a string are either alphabetic or numeric?" }
+    ],
+    "a": "`.isalnum()`",
+    "b": "`.isalpha()`",
+    "c": "`.isnumeric()`",
+    "d": "`.isstring()`",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the result of the comparison `None == False`?" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is true about a Python `set`?" }
+    ],
+    "a": "It can contain duplicate elements.",
+    "b": "It is an ordered collection.",
+    "c": "It is a mutable collection of unique, immutable elements.",
+    "d": "It can contain mutable elements like lists.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `ord('a')`?" }
+    ],
+    "a": "'a'",
+    "b": "97",
+    "c": "Error",
+    "d": "A",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `all()` function return for the following list?" },
+      { "type": "code", "content": "all(['a', 'b', ''])" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is a generator in Python?" }
+    ],
+    "a": "A function that returns a list.",
+    "b": "A function that uses the `yield` keyword to return an iterator.",
+    "c": "A class for generating random numbers.",
+    "d": "A special type of loop.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following list comprehension?" },
+      { "type": "code", "content": "[i for i in range(5) if i % 2]" }
+    ],
+    "a": "[1, 3]",
+    "b": "[0, 2, 4]",
+    "c": "[1, 3, 5]",
+    "d": "[0, 1, 2, 3, 4]",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will `float('inf')` return?" }
+    ],
+    "a": "A very large number",
+    "b": "A floating point representation of positive infinity.",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is true about variable scope in Python (LEGB rule)?" }
+    ],
+    "a": "Variables defined inside a function have global scope.",
+    "b": "Global variables can be accessed without the `global` keyword.",
+    "c": "Local variables take precedence over global variables within a function's scope.",
+    "d": "Python does not have a concept of scope.",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the result of `sorted([3, 1, 2], reverse=True)`?" }
+    ],
+    "a": "[1, 2, 3]",
+    "b": "[3, 2, 1]",
+    "c": "[3, 1, 2]",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `enumerate()` function do?" }
+    ],
+    "a": "It counts the number of items in an iterable.",
+    "b": "It returns an iterator of tuples containing indices and values from an iterable.",
+    "c": "It checks if all items in an iterable are true.",
+    "d": "It converts an iterable to a list.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following dictionary `get` method?" },
+      { "type": "code", "content": "{'a': 1, 'b': 2}.get('c', 3)" }
+    ],
+    "a": "Error",
+    "b": "None",
+    "c": "3",
+    "d": "1",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `*` operator do when used with a list in a function call (e.g., `my_func(*my_list)`)?" }
+    ],
+    "a": "It multiplies the list.",
+    "b": "It unpacks the list into separate positional arguments.",
+    "c": "It is a syntax error.",
+    "d": "It creates a pointer to the list.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `bool('False')`?" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is not a valid Python identifier?" }
+    ],
+    "a": "_my_var",
+    "b": "my_var_1",
+    "c": "1_my_var",
+    "d": "MyVar",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the walrus operator `:=` (introduced in Python 3.8) do?" }
+    ],
+    "a": "Assigns a value to a variable as part of a larger expression.",
+    "b": "Compares two values for equality and type.",
+    "c": "It is a bitwise operator.",
+    "d": "It is a typo for `==`.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "How do you escape curly braces inside an f-string? What is the output of the following?" },
+      { "type": "code", "content": "f'{{1+1}}'" }
+    ],
+    "a": "2",
+    "b": "{2}",
+    "c": "{1+1}",
+    "d": "Error",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does `from module import *` do?" }
+    ],
+    "a": "Imports all public objects from a module into the current namespace.",
+    "b": "Imports the entire module, requiring you to use `module.object`.",
+    "c": "It is a syntax error.",
+    "d": "It is a comment.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the three-argument version of `pow()`?" },
+      { "type": "code", "content": "pow(2, 3, 5)" }
+    ],
+    "a": "8",
+    "b": "3",
+    "c": "6",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the concept of \"duck typing\"?" }
+    ],
+    "a": "A way of checking the explicit type of an object before using it.",
+    "b": "A programming style that determines an object's suitability by its methods and properties, not its explicit type ('If it walks like a duck and it quacks like a duck, then it must be a duck').",
+    "c": "A debugging technique for finding type-related errors.",
+    "d": "A feature only found in dynamically typed languages that prevents type errors.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following nested list comprehension?" },
+      { "type": "code", "content": "[x for x in [1, 2, 3] for y in [3, 1, 4] if x == y]" }
+    ],
+    "a": "[1, 3]",
+    "b": "[1, 3, 4]",
+    "c": "[3, 1]",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the primary purpose of the `with` statement?" }
+    ],
+    "a": "It is used for complex exception handling.",
+    "b": "It simplifies the management of resources (like files or network connections) by ensuring they are properly cleaned up.",
+    "c": "It is a type of loop.",
+    "d": "It is a conditional statement.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What would you expect to see after running the following command in a Python interpreter?" },
+      { "type": "code", "content": "help(''.join)" }
+    ],
+    "a": "A documentation string (docstring) for the `join` method of strings.",
+    "b": "A `NameError`.",
+    "c": "The source code of the `join` method.",
+    "d": "None of the above.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following f-string formatting?" },
+      { "type": "code", "content": "print(f'{1234567.89:,.2f}')" }
+    ],
+    "a": "1,234,567.89",
+    "b": "1234567.89",
+    "c": "1.234.567,89",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will creating a `set` from the string 'hello' return?" },
+      { "type": "code", "content": "set('hello')" }
+    ],
+    "a": "`{'h', 'e', 'l', 'l', 'o'}`",
+    "b": "`{'h', 'e', 'l', 'o'}`",
+    "c": "`['h', 'e', 'l', 'l', 'o']`",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the difference between an iterator and an iterable?" }
+    ],
+    "a": "There is no difference.",
+    "b": "An iterable is an object that can be looped over (it has an `__iter__` method), while an iterator is an object that produces the next value in a sequence (it has a `__next__` method).",
+    "c": "An iterator is an object that can be looped over, while an iterable is an object that produces the next value in a sequence.",
+    "d": "Iterators are faster.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following `map` function?" },
+      { "type": "code", "content": "list(map(lambda x: x*2, [1, 2, 3]))" }
+    ],
+    "a": "[2, 4, 6]",
+    "b": "[1, 4, 9]",
+    "c": "[1, 2, 3, 1, 2, 3]",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the special variable `__name__` contain when a Python script is run directly from the command line?" }
+    ],
+    "a": "The name of the script file.",
+    "b": "The string '__main__'",
+    "c": "The full path to the script.",
+    "d": "An empty string.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is not a built-in function in Python?" }
+    ],
+    "a": "`print()`",
+    "b": "`len()`",
+    "c": "`main()`",
+    "d": "`type()`",
+    "correct": "c"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of immediately invoking a `lambda` function?" },
+      { "type": "code", "content": "(lambda x: x + 1)(2)" }
+    ],
+    "a": "3",
+    "b": "2",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the purpose of the `nonlocal` keyword?" }
+    ],
+    "a": "To declare a variable as not local to any scope.",
+    "b": "To modify a variable in the nearest enclosing (but non-global) scope from within a nested function.",
+    "c": "To access a global variable.",
+    "d": "It is a synonym for `global`.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `max(['a', 'b', 'c'])` based on lexicographical comparison?" }
+    ],
+    "a": "'c'",
+    "b": "'a'",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the string method `'hello'.find('l')` return?" }
+    ],
+    "a": "The index of the first occurrence: 2",
+    "b": "The index of the last occurrence: 3",
+    "c": "A list of all occurrences: [2, 3]",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `bin(5)`?" }
+    ],
+    "a": "'0b101'",
+    "b": "'101'",
+    "c": "5",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does `issubclass(bool, int)` return, and why?" }
+    ],
+    "a": "True, because booleans in Python are a subclass of integers.",
+    "b": "False, because they are distinct types.",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the primary purpose of the `__slots__` attribute in a class?" }
+    ],
+    "a": "To define the public interface of an object.",
+    "b": "To save memory by pre-declaring instance attributes and preventing the creation of an instance `__dict__`.",
+    "c": "To make attributes read-only.",
+    "d": "It is for documentation purposes only.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What will `abs(-3.14)` return?" }
+    ],
+    "a": "3.14",
+    "b": "-3.14",
+    "c": "3",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the following `replace` method?" },
+      { "type": "code", "content": "'abc'.replace('a', 'x')" }
+    ],
+    "a": "'xbc'",
+    "b": "'abcx'",
+    "c": "Error",
+    "d": "'axbc'",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following can be used as a valid key in a Python dictionary?" }
+    ],
+    "a": "`[1, 2]` (a list)",
+    "b": "`(1, 2)` (a tuple)",
+    "c": "`{'a': 1}` (a dictionary)",
+    "d": "`set([1, 2])` (a set)",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `^` operator do in Python?" }
+    ],
+    "a": "Exponentiation",
+    "b": "Bitwise XOR",
+    "c": "Logical AND",
+    "d": "String concatenation",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of the floor division operator `//` in the expression `10 // 3`?" }
+    ],
+    "a": "3.33",
+    "b": "3",
+    "c": "1",
+    "d": "Error",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does `chr(97)` return?" }
+    ],
+    "a": "'a'",
+    "b": "97",
+    "c": "Error",
+    "d": "'A'",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `hash(1) == hash(1.0)`?" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following will create a tuple with a single element?" }
+    ],
+    "a": "`(1)`",
+    "b": "`(1,)`",
+    "c": "`[1]`",
+    "d": "`{1}`",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `eval('2 + 2')`?" }
+    ],
+    "a": "'2 + 2'",
+    "b": "4",
+    "c": "Error",
+    "d": "None",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `dir()` function do when called without arguments?" }
+    ],
+    "a": "Returns a list of names in the current local scope.",
+    "b": "Returns a list of all built-in functions.",
+    "c": "It is a syntax error.",
+    "d": "Returns the current working directory path.",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `callable(lambda: None)`?" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "None",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `frozenset` data type represent?" }
+    ],
+    "a": "A mutable set.",
+    "b": "An immutable and hashable version of a set.",
+    "c": "A list of sets.",
+    "d": "A frozen dictionary.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What is the output of `hex(255)`?" }
+    ],
+    "a": "'0xff'",
+    "b": "'255'",
+    "c": "'ff'",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "What does the `...` literal represent in Python?" }
+    ],
+    "a": "A placeholder for code to be written.",
+    "b": "A singleton object of type Ellipsis.",
+    "c": "A multi-line comment.",
+    "d": "All of the above.",
+    "correct": "b"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "In CPython, small integers are cached. What is the likely output of `id(5) == id(5)`?" }
+    ],
+    "a": "True",
+    "b": "False",
+    "c": "Sometimes True, sometimes False",
+    "d": "Error",
+    "correct": "a"
+  },
+  {
+    "question": [
+      { "type": "text", "content": "Which of the following is the primary mechanism for Python's garbage collection?" }
+    ],
+    "a": "It is manual; the programmer must deallocate memory.",
+    "b": "It is based on a combination of reference counting and a cyclic garbage collector.",
+    "c": "It is not present in Python.",
+    "d": "It only works for list objects.",
+    "correct": "b"
+  }
+]

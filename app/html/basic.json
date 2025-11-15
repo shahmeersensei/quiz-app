@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "a": "Hyper Trainer Marking Language",
+    "b": "HyperText Markup Language",
+    "c": "HyperText Markdown Language",
+    "d": "Home Tool Markup Language",
+    "correct": "b"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "a": "<link>",
+    "b": "<a>",
+    "c": "<href>",
+    "d": "<hyper>",
+    "correct": "b"
+  },
+  {
+    "question": "Which tag is used to insert an image?",
+    "a": "<pic>",
+    "b": "<src>",
+    "c": "<image>",
+    "d": "<img>",
+    "correct": "d"
+  },
+  {
+    "question": "How do you make text bold in HTML?",
+    "a": "<bold>",
+    "b": "<strong>",
+    "c": "<bld>",
+    "d": "<bldtxt>",
+    "correct": "b"
+  },
+  {
+    "question": "What is the correct way to start an HTML5 document?",
+    "a": "<!html>",
+    "b": "<html5>",
+    "c": "<!DOCTYPE html>",
+    "d": "<doctype html>",
+    "correct": "c"
+  },
+  {
+    "question": "Which tag is used to create a line break?",
+    "a": "<br>",
+    "b": "<break>",
+    "c": "<lb>",
+    "d": "<new>",
+    "correct": "a"
+  },
+  {
+    "question": "Which tag is used for the largest heading?",
+    "a": "<h1>",
+    "b": "<h6>",
+    "c": "<head>",
+    "d": "<h10>",
+    "correct": "a"
+  },
+  {
+    "question": "What does the <p> tag represent?",
+    "a": "Picture",
+    "b": "Page",
+    "c": "Paragraph",
+    "d": "Preview",
+    "correct": "c"
+  },
+  {
+    "question": "What is the correct HTML tag for inserting a background color?",
+    "a": "<background>",
+    "b": "<body bgcolor=\"yellow\">",
+    "c": "<bgcolor>",
+    "d": "<color>",
+    "correct": "b"
+  },
+  {
+    "question": "Is HTML case-sensitive?",
+    "a": "Yes",
+    "b": "No",
+    "c": "Only tags are case-sensitive",
+    "d": "Only attributes are case-sensitive",
+    "correct": "b"
+  }
+]

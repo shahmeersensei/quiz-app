@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which tag is used to define a table header?",
+    "a": "<th>",
+    "b": "<td>",
+    "c": "<tr>",
+    "d": "<thead>",
+    "correct": "a"
+  },
+  {
+    "question": "What does the alt attribute in the <img> tag do?",
+    "a": "Provides alternative image formats",
+    "b": "Adds audio to images",
+    "c": "Displays text when image fails to load",
+    "d": "Changes alignment",
+    "correct": "c"
+  },
+  {
+    "question": "Which tag is used to create a dropdown list?",
+    "a": "<input type=\"dropdown\">",
+    "b": "<list>",
+    "c": "<select>",
+    "d": "<dropdown>",
+    "correct": "c"
+  },
+  {
+    "question": "What does the action attribute in a <form> tag specify?",
+    "a": "The script where form data is sent",
+    "b": "Type of form",
+    "c": "Form background",
+    "d": "The method of form submission",
+    "correct": "a"
+  },
+  {
+    "question": "Which input type allows the user to pick a date?",
+    "a": "type=\"calendar\"",
+    "b": "type=\"date\"",
+    "c": "type=\"datetime\"",
+    "d": "type=\"picker\"",
+    "correct": "b"
+  },
+  {
+    "question": "What is the purpose of <section> in HTML5?",
+    "a": "Divides page into parts",
+    "b": "Adds video",
+    "c": "Creates sidebar",
+    "d": "Creates form",
+    "correct": "a"
+  },
+  {
+    "question": "What is the correct tag for playing audio in HTML5?",
+    "a": "<sound>",
+    "b": "<media>",
+    "c": "<audio>",
+    "d": "<mp3>",
+    "correct": "c"
+  },
+  {
+    "question": "How do you open a link in a new tab?",
+    "a": "target=\"blank\"",
+    "b": "open=\"new\"",
+    "c": "target=\"_blank\"",
+    "d": "new-tab=\"yes\"",
+    "correct": "c"
+  },
+  {
+    "question": "Which tag defines a list item?",
+    "a": "<li>",
+    "b": "<ul>",
+    "c": "<list>",
+    "d": "<ol>",
+    "correct": "a"
+  },
+  {
+    "question": "What is the purpose of the <meta> tag?",
+    "a": "Add background music",
+    "b": "SEO and encoding info",
+    "c": "Create popup window",
+    "d": "Show alerts",
+    "correct": "b"
+  }
+]

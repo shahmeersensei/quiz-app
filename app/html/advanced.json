@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which HTML5 tag is used for self-contained content like blog posts?",
+    "a": "<section>",
+    "b": "<article>",
+    "c": "<aside>",
+    "d": "<main>",
+    "correct": "b"
+  },
+  {
+    "question": "Which tag defines navigation links in HTML5?",
+    "a": "<nav>",
+    "b": "<link>",
+    "c": "<navigation>",
+    "d": "<href>",
+    "correct": "a"
+  },
+  {
+    "question": "Which tag is best for grouping inline elements and applying CSS?",
+    "a": "<div>",
+    "b": "<group>",
+    "c": "<section>",
+    "d": "<span>",
+    "correct": "d"
+  },
+  {
+    "question": "Which HTML tag is used for embedding a webpage within a page?",
+    "a": "<embed>",
+    "b": "<frame>",
+    "c": "<iframe>",
+    "d": "<object>",
+    "correct": "c"
+  },
+  {
+    "question": "How to make an input field required in HTML5?",
+    "a": "required=\"true\"",
+    "b": "required",
+    "c": "mandatory",
+    "d": "force=\"true\"",
+    "correct": "b"
+  },
+  {
+    "question": "Which element represents a machine-readable time/date?",
+    "a": "<clock>",
+    "b": "<time>",
+    "c": "<date>",
+    "d": "<datetime>",
+    "correct": "b"
+  },
+  {
+    "question": "How to group multiple form elements?",
+    "a": "<group>",
+    "b": "<fieldset>",
+    "c": "<formgroup>",
+    "d": "<box>",
+    "correct": "b"
+  },
+  {
+    "question": "Which attribute defines inline CSS styles?",
+    "a": "style",
+    "b": "css",
+    "c": "stylesheet",
+    "d": "design",
+    "correct": "a"
+  },
+  {
+    "question": "Which tag is used to define footer content for a document or section?",
+    "a": "<bottom>",
+    "b": "<foot>",
+    "c": "<footer>",
+    "d": "<section-footer>",
+    "correct": "c"
+  },
+  {
+    "question": "What’s the difference between a tag and an element?",
+    "a": "No difference",
+    "b": "Tag includes content, element doesn’t",
+    "c": "Element is tag + content",
+    "d": "Tag is a finished HTML block",
+    "correct": "c"
+  }
+]
